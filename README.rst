@@ -1,10 +1,18 @@
 openprocurement.contracting.api
 ===============================
 
-.. image:: https://badges.gitter.im/openprocurement/openprocurement.contracting.api.svg
-   :alt: Join the chat at https://gitter.im/openprocurement/openprocurement.contracting.api
-   :target: https://gitter.im/openprocurement/openprocurement.contracting.api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+.. image:: https://travis-ci.org/ProzorroUKR/openprocurement.contracting.api.svg?branch=master
+    :target: https://travis-ci.org/ProzorroUKR/openprocurement.contracting.api
+
+.. image:: https://coveralls.io/repos/github/ProzorroUKR/openprocurement.contracting.api/badge.svg?branch=master
+   :target: https://coveralls.io/github/ProzorroUKR/openprocurement.contracting.api?branch=master
+
+.. image:: https://readthedocs.org/projects/prozorro-openprocurementcontractingapi/badge/?version=latest
+   :target: https://prozorro-openprocurementcontractingapi.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+
 
 Contracting API interface to OpenProcurement database
 
-Documentation for this package is available at http://contracting.api-docs.openprocurement.org/en/latest/overview.html
+Documentation for this package is available at https://prozorro-openprocurementcontractingapi.readthedocs.io/en/latest/overview.html
