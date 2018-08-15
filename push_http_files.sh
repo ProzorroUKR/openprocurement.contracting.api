@@ -9,7 +9,7 @@ DOCS_ACC='ProzorroUKR'
 DOCS_REPO='prozorro-docs'
 CUR_DIR="${PWD##*/}"
 SOURCES="../$CUR_DIR/docs/source/tutorial/."
-TARGET_DIR='docs/source/http/open_ua'
+TARGET_DIR='docs/source/contracting/http'
 
 # getting current branch name with changes (which's different on Travis for pull requests and direct merges)
 if [ -z ${TRAVIS_PULL_REQUEST_BRANCH} ]  # if it's empty (not a pull request)
