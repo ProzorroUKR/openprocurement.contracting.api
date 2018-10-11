@@ -20,6 +20,6 @@ install:
   - bin/buildout -N
 script:
   - bin/py.test ./openprocurement/contracting/api/tests --cov=openprocurement.contracting.api
-  - bin/pylint --errors-only --disable=no-member,not-an-iterable,bad-super-call,unsubscriptable-object,too-many-format-args openprocurement.contracting.api
+  - bin/pylint --errors-only --disable=no-member,not-an-iterable,bad-super-call,unsubscriptable-object,too-many-format-args,inherit-non-class openprocurement.contracting.api
 after_success:
   - bin/coveralls
