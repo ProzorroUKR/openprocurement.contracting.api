@@ -8,6 +8,7 @@ from schematics.types.compound import ModelType, DictType
 from schematics.types.serializable import serializable
 from schematics.exceptions import ValidationError
 from schematics.transforms import whitelist, blacklist
+from openprocurement.api.constants import SCALE_CODES
 from openprocurement.api.utils import get_now
 from openprocurement.api.models import Contract as BaseContract
 from openprocurement.api.models import OpenprocurementSchematicsDocument as SchematicsDocument
@@ -88,6 +89,7 @@ class Organization(BaseOrganization):
     contactPoint = ModelType(ContactPoint, required=True)
     additionalContactPoints = ListType(ModelType(ContactPoint, required=True),
                                        required=False)
+    scale = StringType(choices=SCALE_CODES)
 
 
 class ProcuringEntity(Organization):
